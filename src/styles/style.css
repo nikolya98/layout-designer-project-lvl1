@@ -1,0 +1,49 @@
+:root {
+  --main-color: #fe8a02;
+  --main-dark: #42413c;
+  --dark: #2a2626;
+  --dark-semi-transparent: #908d8b;
+  --white: #fff;
+  --white-semi-transparent: #d7ccc0;
+  --light: #f5f4f0;
+  --brown: #b09a81;
+  --blue: #1085c5;
+}
+
+body {
+  font-family: "Open Sans", sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6em;
+  color: var(--dark);
+  background-color: var(--white);
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+.title {
+  font-family: Neucha, cursive;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+.main-title {
+  font-size: 72px;
+}
+
+.section-title {
+  font-size: 60px;
+}
+
+.sub-title {
+  font-size: 34px;
+}
