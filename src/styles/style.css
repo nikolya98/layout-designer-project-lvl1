@@ -8,12 +8,11 @@
   --light: #f5f4f0;
   --brown: #b09a81;
   --blue: #1085c5;
-  --btn-hover: #EA7600;
-
+  --btn-hover: #ea7600;
 }
 
 body {
-  font-family: "Open Sans", sans;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -134,8 +133,6 @@ body {
   background-color: var(--white);
 }
 
-
-
 .light-bg,
 .light-bg-pseudo::before {
   background-color: var(--light);
@@ -224,7 +221,7 @@ body {
 }
 
 ul.flex-wrapper {
-  margin-bottom: -20px; 
+  margin-bottom: -20px;
 }
 
 .flex-item {
@@ -248,7 +245,7 @@ ul.flex-wrapper {
   display: block;
 }
 
-.navigation-link {
+.navigation-link-style {
   font: inherit;
   color: inherit;
   text-decoration: none;
