@@ -38,6 +38,7 @@ body {
   line-height: 1.2em;
 }
 
+h1,
 .main-title {
   font-size: 72px;
 }
@@ -114,8 +115,13 @@ body {
   overflow: hidden;
 }
 
-.brown-bg {
+.brown-bg,
+.brown-bg-pseudo::before {
   background: var(--brown);
+}
+
+.white-bg {
+  background-color: var(--white);
 }
 
 .light-bg,
@@ -139,6 +145,10 @@ body {
 
 .orange {
   color: var(--main-color);
+}
+
+.brown {
+  color: var(--brown);
 }
 
 .white {
@@ -265,7 +275,6 @@ ul.flex-wrapper {
 }
 
 .column-header-line {
-  display: block;
   padding: 5px 10px;
   column-span: all;
 }
