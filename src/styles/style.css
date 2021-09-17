@@ -69,20 +69,28 @@ body {
   background-color: var(--btn-hover);
 }
 
-.mt-0 {
+.mt0 {
   margin-top: 0;
 }
 
-.mb-20 {
+.mb20 {
   margin-bottom: 20px;
 }
 
-.mb-40 {
+.mb30 {
+  margin-bottom: 30px;
+}
+
+.mb40 {
   margin-bottom: 40px;
 }
 
-.mb-185 {
+.mb185 {
   margin-bottom: 185px;
+}
+
+.mb-200 {
+  margin-bottom: -200px;
 }
 
 .overflow-hidden {
@@ -133,4 +141,16 @@ body {
 
 .break-column {
   break-before: column;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.preview-text {
+  color: #212529;
+}
+
+.video-shadow {
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
